@@ -43,7 +43,7 @@
     position: fixed; 
     top: 0;
     width: 100%;
-    background-color: rgba(80,80,80,0.9);
+    background-color: rgba(82,54,27,0.8);
     visibility: hidden;
 
     &.show {
@@ -79,7 +79,7 @@
 
     // Branding Side
     &-branding {
-        background: $primary-color;
+        // background: $primary-color;
         transform: translate3d(0, 100%, 0);
         @include easeOut;
 
@@ -95,7 +95,7 @@
            border: solid 3px $secondary-color;
            background-position: center;
            background-size: auto;
-           background-color: rgb(80,80,80);
+           background-color: rgb(82,54,27);
                       
        }
     }
