@@ -48,7 +48,7 @@
            transform: translate3d(100%, 0, 0);
    
            .portrait {
-               background: url ('../img/portrait-small.jpg');
+               background: url('../img/portrait-small.jpg');
                width: 150px;
                height: 150px;
            }
@@ -79,5 +79,9 @@
        .projects {
            grid-template-columns: 1fr;
        } 
+
+       .boxes div {
+           font-size: 1rem;
+       }
    }
    
