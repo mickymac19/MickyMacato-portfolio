@@ -145,7 +145,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 25px;
+    padding: 25px;
 
 }
 
@@ -159,22 +159,26 @@ main {
 
     div {
         font-size: 2rem;
-        border: 3px #fff solid;
+        // border: 3px #fff solid;
         padding: 1.5rem 2.5rem;
         margin-bottom: 3rem;
         @include easeOut;
 
-        &:hover {
-            padding: 0.5rem 1.5rem;
-            background: $secondary-color;
-            color: set-text-color($secondary-color);
-            span {
-                color: set-text-color($secondary-color);
-            }
-        }
+        // &:hover {
+        //     padding: 0.5rem 1.5rem;
+        //     background: $secondary-color;
+        //     color: set-text-color($secondary-color);
+        //     span {
+        //         color: set-text-color($secondary-color);
+        //     }
+        // }
 
 
     }
+}
+
+.boxes-item {
+    border: 3px #fff solid;
 }
 
 // Button Styles
