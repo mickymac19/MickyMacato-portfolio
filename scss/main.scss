@@ -97,16 +97,23 @@ main {
 .bio {
     grid-area: bio;
     font-size: 1.5rem;
+    text-align: justify;
 }
 
 .job-1 {
     grid-area: job1;
+    text-align: justify;
+    padding: 10px;
 }
 .job-2 {
     grid-area: job2;
+    text-align: justify;
+    padding: 10px;
 }
 .job-3 {
     grid-area: job3;
+    text-align: justify;
+    padding: 10px;
 }
 
 .job {
@@ -133,6 +140,13 @@ main {
           @include easeOut;
         }
     }
+}
+
+.youtube {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 25px;
 }
 
 // Contact Page
